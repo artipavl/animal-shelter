@@ -5,8 +5,10 @@
   gap: 24px;
   @media screen and (min-width: 1024px) {
     gap: 40px;
+    padding-bottom: 20px;
   }
   @media screen and (min-width: 1440px) {
+    padding-block: 37px;
   }
 }
 
