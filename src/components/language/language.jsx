@@ -1,6 +1,6 @@
 import React from 'react';
 
-import css from './language.module.css';
+import css from './language.module.scss';
 
 const Language = () => {
   return (

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { IoClose } from 'react-icons/io5';
-import css from './header.module.css';
+import css from './header.module.scss';
 import Logo from 'components/logo/logo';
 import ButtonHelp from 'components/buttonHelp/buttonHelp';
 import Language from 'components/language/language';

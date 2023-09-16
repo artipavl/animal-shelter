@@ -1,6 +1,6 @@
 import React from 'react';
 
-import css from './buttonHelp.module.css';
+import css from './buttonHelp.module.scss';
 
 const ButtonHelp = () => {
   return (
