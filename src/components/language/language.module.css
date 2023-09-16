@@ -1,0 +1,20 @@
+.LanguageBox {
+  padding: 16px;
+
+  color: var(--bleck-dark-blue, #202053);
+
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.Language {
+  color: var(--bleck-dark-blue, #202053);
+
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
