@@ -1,0 +1,33 @@
+.Button {
+  display: flex;
+  width: 327px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 25px 25px 25px 0px;
+  border: 3px solid var(--gradient-blue-red, #4a86ff);
+
+  color: var(--Red, #ef3959);
+  text-align: center;
+  /* Bodi 1 Regular-32 */
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 51.2px */
+
+  &:hover,
+  &:focus {
+    border: 6px solid var(--gradient-blue-red, #4a86ff);
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 442px;
+    height: 102px;
+
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 120%; /* 43.2px */
+  }
+}
