@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/animal-shelter/static/css/main.8b4813bf.css",
+    "main.js": "/animal-shelter/static/js/main.7d125668.js",
+    "index.html": "/animal-shelter/index.html",
+    "main.8b4813bf.css.map": "/animal-shelter/static/css/main.8b4813bf.css.map",
+    "main.7d125668.js.map": "/animal-shelter/static/js/main.7d125668.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b4813bf.css",
+    "static/js/main.7d125668.js"
+  ]
+}
