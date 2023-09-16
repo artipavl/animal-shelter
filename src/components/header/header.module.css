@@ -37,8 +37,10 @@
   height: 100vh;
   background: var(--White, #fff);
   border-top: 1px solid #202053;
+  @media screen and (max-width: 1439px) {
+    transition: top 750ms ease;
+  }
 
-  transition: top 750ms ease;
   padding-top: 16px;
   padding-inline: 24px;
   @media screen and (min-width: 1024px) {
@@ -59,6 +61,9 @@
 .NavOpen {
   display: block;
   top: 106px;
+  @media screen and (min-width: 1440px) {
+    top: 0;
+  }
 }
 
 .NavList {
@@ -104,7 +109,7 @@
     padding-inline: 5px;
   }
 }
-.NavLinkActive {
+.NavLinkctive {
   color: var(--Blue, #4a86ff);
   border-bottom: 1px solid var(--Blue, #4a86ff);
 }
