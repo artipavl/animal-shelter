@@ -1,4 +1,5 @@
 import About from "components/about/about";
+import Conditions from "components/conditions/conditions";
 import Header from "components/header/header";
 import Hero from "components/hero/hero";
 
@@ -14,6 +15,7 @@ function App() {
     <Header />
     <Hero />
     <About />
+    <Conditions />
     </div>
   );
 }
