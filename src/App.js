@@ -2,6 +2,7 @@ import About from "components/about/about";
 import Conditions from "components/conditions/conditions";
 import Header from "components/header/header";
 import Hero from "components/hero/hero";
+import Location from "components/location/location";
 
 const style = {
   display: "flex",
@@ -16,6 +17,7 @@ function App() {
     <Hero />
     <About />
     <Conditions />
+    <Location />
     </div>
   );
 }

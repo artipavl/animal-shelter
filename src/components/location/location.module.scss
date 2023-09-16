@@ -1,0 +1,38 @@
+.Location {
+  padding: 0;
+  width: 100%;
+}
+
+.LocationTitle {
+  margin-bottom: 24px;
+
+  color: var(--bleck-dark-blue, #202053);
+  text-align: center;
+  /* H4(mob) 32SemiBold */
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 41.6px */
+
+  @media screen and (min-width: 1024px) {
+    margin-bottom: 64px;
+
+    font-size: 56px;
+    font-weight: 800;
+  }
+  @media screen and (min-width: 1440px) {
+  }
+}
+
+.LocationMap {
+  width: 100%;
+  aspect-ratio: 3/1;
+  @media screen and (min-width: 1024px) {
+  }
+  @media screen and (min-width: 1440px) {
+    width: calc(100% - 310px);
+    margin-inline: 155px;
+  }
+}
+
