@@ -1,0 +1,122 @@
+.Hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  @media screen and (min-width: 1024px) {
+    gap: 40px;
+  }
+  @media screen and (min-width: 1440px) {
+  }
+}
+
+.HeroTitle {
+  color: var(--bleck-dark-blue, #202053);
+  /* Button emiBold-36 */
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 43.2px */
+
+  @media screen and (min-width: 1024px) {
+    width: 500px;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 130%; /* 72.8px */
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 64px;
+  }
+}
+
+.HeroSubTitle {
+  color: var(--Bleck-Typography, #404040);
+  /* Regular-20 */
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 24px;
+    font-weight: 500;
+    width: 412px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 30px;
+    line-height: 150%; /* 45px */
+    width: 515px;
+  }
+}
+
+.HeroImage {
+  position: relative;
+  width: 346px;
+  /* height: 370px; */
+  right: 14.5px;
+
+  @media screen and (min-width: 1024px) {
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+
+    width: 500px;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 615px;
+  }
+}
+
+.HeroButton {
+  display: flex;
+  width: 327px;
+  height: 80px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 25px 25px 25px 0px;
+  background: var(--Red, #ef3959);
+  box-shadow: 0px 0px 40px 0px rgba(239, 57, 89, 0.4);
+
+  color: var(--White, #fff);
+  text-align: center;
+  /* Bodi 1 Regular-32 */
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+
+  &:hover,
+  &:focus {
+    border-radius: 25px 25px 25px 0px;
+    border: 4px solid var(--Red, #ef3959);
+    background: var(--White, #fff);
+
+    color: var(--Red, #ef3959);
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 328px;
+    height: 102px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 120%; /* 43.2px */
+
+    margin-top: 80px;
+
+    &:hover,
+    &:focus {
+      border: 4px solid var(--Red, #ef3959);
+
+      color: var(--Red, #ef3959);
+    }
+  }
+}

@@ -1,4 +1,5 @@
 import Header from "components/header/header";
+import Hero from "components/hero/hero";
 
 const style = {
   display: "flex",
@@ -10,9 +11,7 @@ function App() {
   return (
     <div style={style}>
     <Header />
-    <div >
-     hi
-    </div>
+    <Hero />
     </div>
   );
 }
