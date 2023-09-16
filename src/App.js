@@ -1,3 +1,4 @@
+import About from "components/about/about";
 import Header from "components/header/header";
 import Hero from "components/hero/hero";
 
@@ -12,6 +13,7 @@ function App() {
     <div style={style}>
     <Header />
     <Hero />
+    <About />
     </div>
   );
 }
