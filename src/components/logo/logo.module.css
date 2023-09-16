@@ -1,0 +1,45 @@
+.Logo {
+  display: flex;
+  width: 84px;
+  height: 62px;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 14.5px;
+  z-index: 1;
+
+  @media screen and (min-width: 1024px) {
+    width: 212px;
+    padding-inline: 0;
+  }
+}
+
+.LogoTitleBox {
+  display: none;
+
+  @media screen and (min-width: 1024px) {
+    display: block;
+  }
+}
+
+.LogoImg {
+  width: 55px;
+  height: 50px;
+  flex-shrink: 0;
+}
+.LogoTitle {
+  color: var(--bleck-dark-blue, #202053);
+  font-family: Poppins;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.LogoSubTitle {
+  color: var(--bleck-dark-blue, #202053);
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
