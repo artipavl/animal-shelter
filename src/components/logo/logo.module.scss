@@ -3,7 +3,6 @@
   display: flex;
   width: 84px;
   height: 62px;
-  justify-content: center;
   align-items: stretch;
   padding: 6px 14.5px;
   z-index: 1;
@@ -12,6 +11,11 @@
     width: 212px;
     padding-inline: 0;
   }
+}
+
+.LogoVariable {
+  padding-inline: 0;
+  width: 212px;
 }
 
 .LogoTitleBox {
@@ -38,8 +42,9 @@
 
 .LogoSubTitle {
   position: absolute;
-  left: 55;
+  left: 55px;
   bottom: 4px;
+  width: max-content;
 
   color: var(--bleck-dark-blue, #202053);
 
