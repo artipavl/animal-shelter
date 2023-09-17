@@ -3,13 +3,14 @@
 
   color: var(--bleck-dark-blue, #202053);
 
-
   font-size: 20px;
   font-weight: 400;
+  > select {
+    background-color: transparent;
+  }
 }
 .Language {
   color: var(--bleck-dark-blue, #202053);
-
 
   font-size: 20px;
   font-weight: 400;
