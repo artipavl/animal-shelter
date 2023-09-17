@@ -26,14 +26,14 @@
   gap: 24px;
   padding: 43px 13px 52px 13px;
 
-  position: relative;
   $border: 5px;
+  position: relative;
   background: rgba(255, 255, 255);
   background-clip: padding-box; /* !importanté */
   border: solid $border transparent; /* !importanté */
   border-radius: 40px;
 
-  &:before {
+  &::before {
     opacity: 0.75;
     content: '';
     position: absolute;
@@ -44,12 +44,7 @@
     z-index: -1;
     margin: -$border; /* !importanté */
     border-radius: inherit; /* !importanté */
-    background: linear-gradient(
-      94deg,
-      #4a86ff 3.11%,
-      #f5f5f5 50.76%,
-      #ef3959 98.4%
-    );
+    background: var(--gradient-blue-red, #4a86ff);
   }
 }
 
