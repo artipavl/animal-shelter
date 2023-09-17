@@ -1,4 +1,5 @@
 import About from "components/about/about";
+import Backgraund from "components/backgraund/backgraund";
 import Conditions from "components/conditions/conditions";
 import Contacts from "components/contacts/contacts";
 import Footer from "components/footer/footer";
@@ -26,6 +27,7 @@ function App() {
     <Contacts />
     <Help />
     <Footer />
+    <Backgraund />
     </div>
   );
 }
