@@ -1,0 +1,80 @@
+.Friend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.FriendTitle {
+  margin-bottom: 24px;
+
+  color: var(--bleck-dark-blue, #202053);
+
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 130%;
+
+  @media screen and (min-width: 1024px) {
+    margin-bottom: 20px;
+
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 130%;
+  }
+  @media screen and (min-width: 1440px) {
+  }
+}
+
+.FriendSubTitle {
+  margin-bottom: 24px;
+
+  color: var(--Bleck-Typography, #404040);
+  text-align: center;
+
+  @media screen and (min-width: 1024px) {
+    margin-bottom: 64px;
+
+    font-size: 24px;
+  }
+  @media screen and (min-width: 1440px) {
+  }
+}
+
+.FriendBox {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 24px;
+  @media screen and (min-width: 1024px) {
+    margin-bottom: 64px;
+    overflow: visible;
+  }
+  @media screen and (min-width: 1440px) {
+  }
+}
+
+.FriendList {
+  display: flex;
+  width: max-content;
+  gap: 20px;
+  position: relative;
+  left: 0;
+  top: 0;
+
+  @media screen and (min-width: 1024px) {
+    justify-content: space-between;
+    max-width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  @media screen and (min-width: 1440px) {
+    > li:nth-last-child(-n + 2) {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+}
+@media screen and (min-width: 1440px) {
+}
