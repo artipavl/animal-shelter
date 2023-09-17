@@ -1,0 +1,122 @@
+.ContactsTitle {
+  margin-bottom: 24px;
+
+  color: var(--bleck-dark-blue, #202053);
+
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 130%;
+
+  @media screen and (min-width: 1024px) {
+    margin-bottom: 64px;
+
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 130%;
+  }
+  @media screen and (min-width: 1440px) {
+  }
+}
+
+.ContactsBox {
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  @media screen and (min-width: 1440px) {
+  }
+}
+
+.ContactsInformation {
+  margin-bottom: 24px;
+  @media screen and (min-width: 1024px) {
+    margin: 0;
+    width: max-content;
+  }
+}
+
+.ContactsInformationTitle {
+  margin-bottom: 20px;
+
+  color: var(--bleck-dark-blue, #202053);
+  text-align: center;
+
+  font-size: 20px;
+  font-weight: 400;
+
+  @media screen and (min-width: 1024px) {
+    text-align: start;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 30px;
+    line-height: 150%;
+  }
+}
+
+.ContactsInformationList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ContactsInformationItem {
+  display: flex;
+  gap: 16px;
+  @media screen and (max-width: 1023px) {
+    &:first-child > h4 {
+      font-size: 20px;
+    }
+  }
+}
+
+.ContactsInformationItemTitle {
+  color: var(--Blue, #4a86ff);
+
+  @media screen and (min-width: 1024px) {
+    font-size: 24px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 30px;
+    line-height: 150%;
+  }
+}
+
+.ContactsInformationItemLinkBox {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ContactsInformationItemLink {
+  display: block;
+
+  &:hover,
+  &:focus {
+    color: var(--Blue, #4a86ff);
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 24px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 30px;
+    line-height: 150%;
+  }
+}
+
+.ContactsImage {
+  @media screen and (min-width: 1024px) {
+    width: 468px;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 639px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+}
+@media screen and (min-width: 1440px) {
+}
