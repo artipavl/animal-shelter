@@ -38,9 +38,7 @@
   color: var(--bleck-dark-blue, #202053);
   text-align: center;
   /* H4(mob) 32SemiBold */
-  font-family: Poppins;
   font-size: 32px;
-  font-style: normal;
   font-weight: 600;
   line-height: 130%; /* 41.6px */
 
@@ -61,14 +59,8 @@
   display: block;
   height: 230px;
   overflow: hidden;
-  color: var(--Bleck-Typography, #404040);
+
   text-overflow: ellipsis;
-  /* Medium-24 */
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
 
   @media screen and (min-width: 1024px) {
     height: 334px;

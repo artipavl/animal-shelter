@@ -1,14 +1,10 @@
-.Conditions {
-}
 .ConditionsTitle {
   margin-bottom: 12px;
 
   color: var(--bleck-dark-blue, #202053);
+
   text-align: center;
-  /* H4(mob) 32SemiBold */
-  font-family: Poppins;
   font-size: 32px;
-  font-style: normal;
   font-weight: 600;
   line-height: 130%; /* 41.6px */
   @media screen and (min-width: 1024px) {
@@ -53,10 +49,8 @@
 .ConditionsItemTitle {
   text-align: center;
   color: var(--Blue, #4a86ff);
-  /* H4(mob) 32SemiBold */
-  font-family: Poppins;
+
   font-size: 32px;
-  font-style: normal;
   font-weight: 600;
   line-height: 130%; /* 41.6px */
   margin-bottom: 12px;
@@ -73,12 +67,7 @@
 
 .ConditionsItemText {
   color: var(--Bleck-Typography, #404040);
-  /* Body (mob) 16Medium */
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+
 
   @media screen and (min-width: 1024px) {
     font-size: 20px;

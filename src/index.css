@@ -1,3 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+:root {
+  --White: #fff;
+  --gradient-blue-red: linear-gradient(
+    94deg,
+    #4a86ff 3.11%,
+    #f5f5f5 50.76%,
+    #ef3959 98.4%
+  );
+  --Blue: #4a86ff;
+  --Red: #ef3959;
+  --bleck-dark-blue: #202053;
+  --Bleck-Typography: #404040;
+  --blue-40-bg: rgba(74, 134, 255, 0.4);
+  --red-40-bg: rgba(239, 57, 89, 0.4);
+}
+
+body {
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color: var(--Bleck-Typography, #404040);
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 *,
 *::before,
 *::after {
@@ -32,7 +69,6 @@ h6 {
 html,
 body {
   height: 100%;
-  line-height: 1;
 }
 button,
 input {
@@ -44,22 +80,6 @@ input {
 button {
   cursor: pointer;
   background-color: inherit;
-}
-
-:root {
-  --White: #fff;
-  --gradient-blue-red: linear-gradient(
-    94deg,
-    #4a86ff 3.11%,
-    #f5f5f5 50.76%,
-    #ef3959 98.4%
-  );
-  --Blue: #4a86ff;
-  --Red: #ef3959;
-  --bleck-dark-blue: #202053;
-  --Bleck-Typography: #404040;
-  --blue-40-bg: rgba(74, 134, 255, 0.4);
-  --red-40-bg: rgba(239, 57, 89, 0.4);
 }
 
 section {

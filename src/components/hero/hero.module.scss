@@ -14,10 +14,8 @@
 
 .HeroTitle {
   color: var(--bleck-dark-blue, #202053);
-  /* Button emiBold-36 */
-  font-family: Poppins;
+  
   font-size: 36px;
-  font-style: normal;
   font-weight: 600;
   line-height: 120%; /* 43.2px */
 
@@ -34,12 +32,9 @@
 
 .HeroSubTitle {
   color: var(--Bleck-Typography, #404040);
-  /* Regular-20 */
-  font-family: Poppins;
+
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 
   @media screen and (min-width: 1024px) {
     font-size: 24px;
@@ -85,11 +80,9 @@
   box-shadow: 0px 0px 40px 0px rgba(239, 57, 89, 0.4);
 
   color: var(--White, #fff);
+  
   text-align: center;
-  /* Bodi 1 Regular-32 */
-  font-family: Poppins;
   font-size: 32px;
-  font-style: normal;
   font-weight: 400;
   line-height: 160%;
 

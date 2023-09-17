@@ -1,9 +1,10 @@
 .Logo {
+  position: relative;
   display: flex;
   width: 84px;
   height: 62px;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   padding: 6px 14.5px;
   z-index: 1;
 
@@ -27,19 +28,20 @@
   flex-shrink: 0;
 }
 .LogoTitle {
+  position: relative;
+  top: -12.5px;
   color: var(--bleck-dark-blue, #202053);
-  font-family: Poppins;
+
   font-size: 35px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
+  font-weight: 700;
 }
 
 .LogoSubTitle {
+  position: absolute;
+  left: 55;
+  bottom: 4px;
+
   color: var(--bleck-dark-blue, #202053);
-  font-family: Poppins;
+
   font-size: 15px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
 }
