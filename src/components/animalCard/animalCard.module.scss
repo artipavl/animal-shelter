@@ -1,0 +1,82 @@
+.AnimalCard {
+  width: 223px;
+  @media screen and (min-width: 1440px) {
+    width: 370px;
+  }
+}
+
+.AnimalCardImage {
+  border-radius: 0px 80px 0px 0px;
+  margin-bottom: 12px;
+}
+
+.AnimalCardInformBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 14.5px;
+
+  @media screen and (min-width: 1440px) {
+    padding: 0;
+    padding-top: 4px;
+  }
+}
+
+.AnimalCardName {
+  margin-bottom: 8px;
+
+  color: var(--bleck-dark-blue, #202053);
+
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 160%;
+
+  @media screen and (min-width: 1440px) {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+
+.AnimalCardAge {
+  color: var(--Bleck-Typography, #404040);
+  @media screen and (min-width: 1440px) {
+    font-size: 24px;
+  }
+}
+
+.AnimalCardLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+  background-color: #fff;
+  color: #79a5ff;
+  > svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  filter: drop-shadow(1px 2px 5px #a4c2ff);
+
+  &:hover,
+  &:focus {
+    color: #202053;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 66px;
+    height: 66px;
+
+    > svg {
+      width: 26px;
+      height: 26px;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+}

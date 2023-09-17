@@ -2,6 +2,7 @@ import About from "components/about/about";
 import Conditions from "components/conditions/conditions";
 import Contacts from "components/contacts/contacts";
 import Footer from "components/footer/footer";
+import Friend from "components/friend/friend";
 import Header from "components/header/header";
 import Help from "components/help/help";
 import Hero from "components/hero/hero";
@@ -19,6 +20,7 @@ function App() {
     <Header />
     <Hero />
     <About />
+    <Friend />
     <Conditions />
     <Location />
     <Contacts />
