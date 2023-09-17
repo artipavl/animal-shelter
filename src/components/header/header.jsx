@@ -9,7 +9,10 @@ import Language from 'components/language/language';
 const Header = () => {
   const [isMenu, setIsMenu] = useState(false);
   return (
-    <header className={css.Header}>
+    <header
+      className={isMenu ? css.Header + ' ' + css.HeaderTransparent : css.Header}
+      // style={{ background: isMenu ? 'var(--White, #fff)' : 'transparent' }}
+    >
       <div className={'container ' + css.HeaderContainer}>
         <Logo variable />
         <div className={css.NavBox}>
